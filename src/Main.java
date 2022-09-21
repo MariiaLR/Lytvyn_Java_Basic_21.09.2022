@@ -6,7 +6,11 @@ public class Main {
         MusicStyles rockBand = new RockMusic("Imagine Dragons", "Dan Reynolds", "Wayne Sermon ",
                 "Ben McKee ", "Daniel Platzman ");
 
-        MusicStyles[] musicStyles = {popBand,rockBand};
+        MusicStyles classicBand = new ClassicMusic("Ludovico Einaudi "," Federico Mecozzi", "Redi Hasa" );
+
+
+
+        MusicStyles[] musicStyles = {popBand,rockBand,classicBand};
         for ( MusicStyles playMusic : musicStyles){
             playMusic.makeSound();
 
